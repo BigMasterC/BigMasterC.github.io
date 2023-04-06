@@ -1,222 +1,233 @@
 export const bio = [
-  "Hello there &#128075;",
-  "I'm Vinay Somawat, a Software Engineer at Biofourmis India with a specialization in JavaScript Applications. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
-  "Apart from coding, I love to read, listen to music, and travel.",
+  "Hi! &#128075; &#128516",
+  "My name is Chibundu Onwuegbule, and I am currently pursuing dual degrees in Computer Science at the University of Maryland, College Park, and Cybersecurity at Prince George's Community College. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
+  "Apart from coding, I love playing lacrosse &#x1F94D, listening to music (I'm always open to new song recommendations), and traveling.",
   "As a lifelong learner, I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.",
-  "Thanks for taking the time to learn a little about me!",
+  "Thank you for taking the time to learn more about me, and I look forward to connecting with you soon!",
 ];
 
 export const skills = [
   {
     title: "Languages",
-    skillName: "JavaScript, TypeScript",
+    skillName: "Java, Python, Bash Scripting ",
     color: "1",
-    percentage: "80",
+    percentage: "85",
   },
-  {
-    title: "Frameworks/Libraries",
-    skillName: "Angular, Rxjs, Ngxs",
-    color: "6",
-    percentage: "70",
-  },
+  
   {
     title: "Design",
-    skillName: "HTML, Bootstrap, Tailwind",
+    skillName: "HTML, CSS",
     color: "4",
-    percentage: "70",
+    percentage: "60",
   },
   {
     title: "Version Control",
-    skillName: "GitHub, JIRA, Bitbucket",
+    skillName: "GitHub, Git",
     color: "7",
-    percentage: "70",
+    percentage: "50",
   },
   {
-    title: "Tools",
-    skillName: "Postman, Chrome DevTools",
+    title: "Word Processing Tools",
+    skillName: "Command-line, Vim",
     color: "3",
     percentage: "80",
   },
   {
-    title: "Analytics",
-    skillName: "CleverTap, Countly",
+    title: "Design",
+    skillName: "Blender, Adobe Photoshop, Pixlr, Canva",
     color: "5",
-    percentage: "50",
+    percentage: "80",
   },
   {
-    title: "Editor",
-    skillName: "VS Code",
+    title: "Editor (IDEs)",
+    skillName: "VS Code, PyCharm, Eclipse",
     color: "6",
-    percentage: "70",
+    percentage: "65",
   },
 ];
 
 export const projects = {
   disclaimer:
-    "*** All the projects I listed were completed during my college-level development journey. As for my work at the industry level, those projects are confidential and cannot be disclosed.",
+    "*** Most of the projects I listed were completed during my college-level development journey as I am still a student. ***",
   webProjects: [
     {
-      projectName: "Programming Diaries",
-      image: "images/programmingdiaries.png",
+      projectName: "Blackjack",
+      image: "images/Blackjack.png",
       summary:
-        "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-      preview: "https://programmingdiaries.herokuapp.com/",
-      techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
+        "Implemented two classes, Deck and BlackjackModel, in the 'deckOfCards' and 'blackjack' packages, respectively, to simulate a standard deck of cards and the game of Blackjack in Java.",
+      preview: "https://github.com/BigMasterC/-GAME-Blackjack",
+      techStack: ["Java", "Object-Oriented Programming", "JUnit"],
     },
     {
-      projectName: "Find Your Bank",
-      image: "images/findyourbank.png",
+      projectName: "Poker",
+      image: "images/Poker.png",
       summary:
-        "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-      preview: "https://clever-fermi-0d5d76.netlify.app",
-      techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
+        "Implemented two classes, Deck and PokerHandEvaluator, to simulate Texas Hold 'Em, a popular style of Poker game.",
+      preview: "https://github.com/BigMasterC/Poker/tree/master",
+      techStack: ["Java", "Object-Oriented Programming", "JUnit"],
     },
     {
-      projectName: "Web Portfolio",
-      image: "images/portfolio.png",
+      projectName: "FishPond",
+      image: "images/Fishpond.png",
       summary:
-        "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-      preview: "https://github.com/vinaysomawat/Travographer-Portal",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
+        "Implemented three classes, Model, Fish, and Plant to simulate an interactive primitive ecosystem designed to showcase the complex interactions and patterns tht emerge in a fish pong habitat.",
+      preview: "https://github.com/BigMasterC/Fish-Pond",
+      techStack: ["Java", "Object-Oriented Programming", "JUnit"],
     },
     {
-      projectName: "Resume Builder",
-      image: "images/resume-builder.png",
+      projectName: "Cafe",
+      image: "images/Cafe.png",
       summary:
-        "Browser based editor to build and download Resumes in a customizable templates.",
-      preview: "https://vinaysomawat.github.io/Resume-Builder",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
+        "Developed a cafe simulation game using Java. The objective of the game is to manage a restaurant and make it successful.",
+      preview: "https://github.com/BigMasterC/Cafe/tree/master",
+      techStack: ["Java", "Object-Oriented Programming"],
+    },
+    {
+      projectName: "In memory of Benoit Mandelbrot: Mandelbrot Set",
+      image: "images/Mandelbrot Set.png",
+      summary:
+        "Developed a Mandelbrot Set GUI in memory of the very influential mathematician, Dr. Mandelbrot.",
+      preview: "https://github.com/BigMasterC/Mandelbrot-Set/tree/master",
+      techStack: ["Java"],
+    },
+    {
+      projectName: "Clear Cell Game",
+      image: "images/Cell Game.png",
+      summary:
+        "Developed a Java program for a game called Clear Cell. The objective of the game is to maximize the number of cleared cells in a colored board. Players can click on a cell to clear surrounding cells of the same color. Once a row of cells is cleared, it collapses and the player earns one point for each cleared cell.",
+      preview: "https://github.com/BigMasterC/Cell-Game/tree/master",
+      techStack: ["Java"],
     },
   ],
   softwareProjects: [
     {
-      projectName: "Pizza Ordering ChatBot",
-      image: "images/pizzaorderchatbot.png",
+      projectName: "LinkedLists",
+      image: "images/Linked_list_data_format.jpg",
       summary:
-        "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-      preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-      techStack: ["Dailogflow", "Firebase"],
+        "Implemented a basic linked and a sorted linked list.",
+      preview: "https://github.com/BigMasterC/LinkedList",
+      techStack: ["Java", "LinkedList", "JUnit"],
     },
     {
-      projectName: "WhatsApp-Bot",
-      image: "images/whatsappbot.jpg",
+      projectName: "HashSets",
+      image: "images/HashSet_diagram.png",
       summary:
-        "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-      preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-      techStack: ["Selenium", "Chrome Webdriver", "Python"],
-    },
-    {
-      projectName: "Bill Generator",
-      image: "images/billgenerator.png",
-      summary:
-        "GUI to transfer data to excel sheets and generate bills on the local shops.",
-      preview: "https://github.com/vinaysomawat/Bill-Generator",
-      techStack: ["Tkinter", "Openxlpy", "Python"],
+        "Implemented a class called MyHashSet, which is a slightly simplified version of Java HashSet class.",
+      preview: "https://github.com/BigMasterC/Hashset/tree/master/src",
+      techStack: ["Java", "HashSet", "JUnit"],
     },
   ],
   androidProjects: [
-    {
-      projectName: "NITW-CSE",
-      image: "images/nitwcse.jpg",
+    { 
+      projectName: "Bash Script Examples",
+      image: "images/scripting.png",
       summary:
-        "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-      preview: "https://github.com/vinaysomawat/NITW-CSE",
-      techStack: ["JAVA", "XML", "Android"],
+        "A portfolio displaying the progression of my Bash Shell scripting abilities.",
+      preview: "https://github.com/BigMasterC/Bash-Script-1",
+      techStack: ["Vim", "Bash", "Linux"],
     },
-    {
-      projectName: "CareerHigh-App",
-      image: "images/carrerhigh.png",
+  ],
+  androidProjects: [
+    { 
+      projectName: "Bash Script Examples",
+      image: "images/scripting.png",
       summary:
-        "The Application display the webpages of website careerhigh.in in android devices.",
-      preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-      techStack: ["JAVA", "XML", "Android"],
+        "A portfolio displaying the progression of my Bash Shell scripting abilities.",
+      preview: "https://github.com/BigMasterC/Bash-Script-1",
+      techStack: ["Vim", "Bash", "Linux"],
     },
   ],
   freelanceProjects: [
+    //{
+     // projectName: "Web Portfolio",
+     // image: "images/portfolio.png",
+     // summary:
+        //"Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
+      //preview: "https://github.com/vinaysomawat/Travographer-Portal",
+      //techStack: ["---", "Bootstrap", "JavaScript"],
+    //},
     {
-      projectName: "SnylloAir.com",
-      image: "images/snylloair.png",
+      projectName: "Snap Lense: SouthPark ",
+      image: "images/Snapchat-logo.png",
       summary:
-        "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-      preview: "https://www.snylloair.com/",
-      techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+        "Developed a SouthPark themed SnapChat Lens using Lens Studio",
+      preview: "https://lens.snapchat.com/45b623eba01b453c98cfd37c54dc2fef?sender_web_id=dbcc74cd-c4b2-489d-a286-9196fe41ff35&device_type=desktop&is_copy_url=true",
+      techStack: ["Lens Studio", "Art"],
     },
     {
-      projectName: "Delivery+",
-      image: "images/AM-Logo-.png",
-      summary: "Android Application to display website in android devices.",
+      projectName: "Resume",
+      image: "images/resumepic.png",
+      summary: "My Resume :)",
       preview:
-        "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-      techStack: ["Android", "JAVA", "Play Store"],
+        "https://drive.google.com/file/d/14FPYrRhhaOc2KjWw_axkldatbHloW_zk/view?usp=sharing",
+      techStack: ["Markdown", "CSS"],
     },
   ],
 };
 
 export const experience = [
   {
-    title: "Biofourmis India Pvt. Ltd.",
-    duration: "April 2022 - Present",
-    subtitle: "Software Engineer",
+    title: "C.D.O. ENTERPRISES, LLC",
+    duration: "April 2022 — Present",
+    subtitle: "Registered Agent ",
     details: [
-      "Currently involved in developing healthcare and digital therapeutics products."
+      "Delegates all legal documents on behalf of CDO ENTERPRISES’ e-commerce LLC ",
+      "Relays essential information to LLC owner",
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Leadership", "Communication"],
+    icon: "group",
+  },
+  {
+    title: "Johns Hopkins Applied Physics Laboratory",
+    duration: "November 2021 — May 2022 ",
+    subtitle: "Intern",
+    details: [
+      "Completed 3 STEM related projects using Blender's (3D modeling software) Python API; Developed a Python program intended to interpret and visualize data. "
+    ],
+    tags: ["Blender", "Python"],
     icon: "heartbeat",
   },
   {
-    title: "Novopay Solutions Pvt. Ltd.",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
+    title: "Math, Engineering, Science, Achievement (MESA)",
+    duration: "October 2018 — May 2022",
+    subtitle: "Captain of Wearable Technology Team",
     details: [
-      "Successfully implemented Aadhaar Enabled Payment services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money Transfer, achieving more than 20 story points in each sprint.",
-      "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
-      "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
+      "Maintained position as the Captain of Wearable Technology team under Johns Hopkins' APL MESA program for all 4 years of high school career.",
+      "Oversaw progress made by team members.",
+      "Designed and built a wearable device meant to monitor a baby's vital signs.",
     ],
-    tags: ["JavaScript", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Python", "Leadership"],
     icon: "qrcode",
-  },
-  {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
-    details: [
-      "Contributed as a full-stack developer to provide technical support to the team",
-      "Designed and developed a comprehensive Web Application for social media management, starting from the ground up, to cater to customer needs.",
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
   },
 ];
 
 export const education = [
   {
-    title: "Bachelors in Computer Science and Engineering",
-    duration: "",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "Bachelors of Science, Computer Science | Honors Advanced Cybersecurity Program (ACES)",
+    duration: "May 2026",
+    subtitle: "University of Maryland, College Park",
     details: [
-      "I successfully qualified GATE-2020, demonstrating my aptitude and expertise in the field.",
-      "As an active competitive programmer, I have achieved a CodeChef rating of 1841*, showcasing my skills in solving complex programming problems.",
-      "My GitHub projects have earned over 1k stars and forks, a testament to my ability to create high-quality and impactful code.",
+      "Black Engineers Society (BES)",
+      "CODE: Black",
+      "Technica (Hackathon) ",
     ],
     tags: [
       "Data Structures & Algorithms",
       "Operating Systems",
       "Database Management System",
-      "Computer Networks",
-      "Compiler Designing",
-      "Cloud Computing",
+      "Computer Network Security",
     ],
     icon: "graduation-cap",
   },
   {
-    title: "Class 11-12th in Science and Mathematics",
+    title: "Associate in Applied Science, Cybersecurity",
     duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
+    subtitle: "Prince George's Community College, Largo, MD",
     details: [
-      "I have successfully qualified JEE Advanced, Main, and BITSAT, demonstrating my strong aptitude and skills in these highly competitive exams.",
-      "Additionally, I am proud to have achieved an exceptional 99.5 percentile in my Class 12th Boards Examinations, reflecting my dedication and hard work towards academic excellence.",
+      "Maintained a 4.0 GPA while enrolled as a full-time student",
+      "Earned 34 credits through Charles Herbert Flowers High School's 3D Scholar Dual Enrollment program.",
     ],
-    tags: ["Physics", "Chemistry", "Mathematics"],
+    tags: ["Networking"],
     icon: "book",
   },
 ];
@@ -226,64 +237,45 @@ export const footer = [
     label: "Dev Profiles",
     data: [
       {
-        text: "Stackoverflow",
-        link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-      },
-      {
         text: "GitHub",
-        link: "https://github.com/vinaysomawat",
+        link: "https://github.com/BigMasterC",
       },
       {
         text: "LeetCode",
-        link: "https://leetcode.com/somawatvinay/",
+        link: "https://leetcode.com/BigMasterC/",
       },
     ],
   },
   {
-    label: "Resources",
+    label: "Webpage Resources",
     data: [
       {
         text: "Enable Dark/Light Mode",
         func: "enableDarkMode()",
       },
-      {
-        text: "Print this page",
-        func: "window.print()",
-      },
-      {
-        text: "Clone this page",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-      },
+
     ],
   },
   {
-    label: "Social Profiles",
+    label: "Social Profile",
     data: [
       {
         text: "Linkedin",
-        link: "https://www.linkedin.com/in/vinaysomawat/",
-      },
-      {
-        text: "Twitter",
-        link: "https://twitter.com/thesigmakid",
-      },
-      {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
+        link: "https://www.linkedin.com/in/chibunduo/",
       },
     ],
   },
   {
     label: "copyright-text",
     data: [
-      "Made with &hearts; by Vinay Somawat.",
-      "&copy; No Copyrights. Feel free to use this template.",
+      "Made with &hearts; by ChiChi.",
+    
     ],
   },
 ];
 
-const gitUserName = "vinaysomawat";
-const mediumUserName = "vinaysomawat";
+const gitUserName = "BigMasterC";
+const mediumUserName = "BigMasterC";
 
 export const URLs = {
   mediumURL: `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${mediumUserName}`,

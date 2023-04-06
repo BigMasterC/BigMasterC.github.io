@@ -18,9 +18,9 @@
    <link rel="stylesheet"
          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-   <link rel="icon"
+   <!-- link rel="icon"
          type="image/png"
-         href="/images/logo.png">
+         href="images\WomenInStemLogo.png"-->
    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
          rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700"
@@ -58,7 +58,7 @@
                 class="border js-fullheight no-print">
             <div class="text-center">
                <div class="author-img">
-                  <img alt="profile-img" src="images/logo.png">
+                  <!-- img alt="profile-img" src="images\WomenInStemLogo.png" style="height: 500px; " -->
                </div>
                <h1 id="colorlib-logo"><a href="./index.html"> Chibundu
                   Onwuegbule</a>
@@ -72,19 +72,17 @@
                     class="collapse">
                   <ul>
                      <li><a href="#"
-                           data-nav-section="about">About</a></li>
+                           data-nav-section="about">About Me</a></li>
                      <li><a href="#"
-                           data-nav-section="skills">Skills</a>
+                           data-nav-section="skills">Technical Skills</a>
                      </li>
+                     <li><a href="#"
+                        data-nav-section="experience">Work
+                        Experience</a></li>
                      <li><a href="#"
                            data-nav-section="projects">Projects</a>
                      </li>
-                     <li><a href="#"
-                           data-nav-section="blogs">Blogs</a>
-                     </li>
-                     <li><a href="#"
-                           data-nav-section="experience">Work
-                           Experience</a></li>
+
                      <li><a href="#"
                            data-nav-section="education">Education</a></li>
                      <li><a href="#"
@@ -104,7 +102,7 @@
                   <div class="row animate-box"
                        data-animate-effect="fadeInLeft">
                      <div class="about-desc">
-                        <h1>About</h1>
+                        <h1>About Me</h1>
                         <div id="bio">
                         </div>
                      </div>
@@ -119,7 +117,7 @@
                   <div class="row row-bottom-padded-sm animate-box"
                        data-animate-effect="fadeInLeft">
                      <div class="about-desc">
-                        <h1>Skills</h1>
+                        <h1> Technical Skills</h1>
                      </div>
                   </div>
                   <div id="skills"
@@ -128,24 +126,23 @@
                </div>
             </section>
             <!--------------------[END] Skills------------------------------>
-            <section class="colorlib-profile"
-                     data-section="profile-card">
-               <div class="colorlib-narrow-content">
-                  <div class="row row-bottom-padded-sm animate-box"
-                       data-animate-effect="fadeInLeft">
-                     <div class="profile-cards">
-                        <div class="col">
-                           <div class="stack-card"
-                                user-id="8461233"></div>
-                        </div>
-                        <div class="col">
-                           <div class="github-card"
-                                username="vinaysomawat"></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
+              <!--------------------[START] Work Experience------------------->
+              <section class="colorlib-experience"
+              data-section="experience">
+        <div class="colorlib-narrow-content">
+           <div class="row row-bottom-padded-sm animate-box fadeInLeft animated"
+                data-animate-effect="fadeInLeft">
+              <div class="about-desc">
+                 <h1>Work <span style="color: #f9bf3f">Experience</span>
+                 </h1>
+              </div>
+           </div>
+           <div class="timeline-centered"
+                id="experience">
+           </div>
+        </div>
+     </section>
+     <!--------------------[END] Work Experience--------------------->
             <!--------------------[START] Projects-------------------------->
             <section class="colorlib-projects no-print"
                      data-section="projects">
@@ -161,7 +158,7 @@
                       data-animate-effect="fadeInLeft">
                      <li>
                         <div class="link">
-                           <p style="margin-bottom: 0px">Web Projects</p>
+                           <p style="margin-bottom: 0px"> &#x1F3AE Games</p>
                            <i class="fa fa-chevron-down"></i>
                         </div>
                         <ul id="web-projects"
@@ -170,7 +167,7 @@
                      </li>
                      <li>
                         <div class="link">
-                           <p style="margin-bottom: 0px">Software Projects
+                           <p style="margin-bottom: 0px"> &#x1F469;&#x200D;&#x1F52C Data Structures
                            </p>
                            <i class="fa fa-chevron-down"></i>
                         </div>
@@ -180,7 +177,7 @@
                      </li>
                      <li>
                         <div class="link">
-                           <p style="margin-bottom: 0px">Android Projects
+                           <p style="margin-bottom: 0px"> &#x1F422 Bash Shell Scripts
                            </p>
                            <i class="fa fa-chevron-down"></i>
                         </div>
@@ -188,9 +185,18 @@
                             class="submenu">
                         </ul>
                      </li>
+                     <!--<li>
+                        <div class="link">
+                           <p style="margin-bottom: 0px"> &#x1F469;&#x1F3FE;&#x200D;&#x1F3A8 Digital Art </p>
+                           <i class="fa fa-chevron-down"></i>
+                        </div>
+                        <ul id="art-projects"
+                            class="submenu">
+                        </ul>
+                     </li> -->
                      <li>
                         <div class="link">
-                           <p style="margin-bottom: 0px">Freelance Projects
+                           <p style="margin-bottom: 0px"> &#x1F4BB Miscellaneous Projects
                            </p>
                            <i class="fa fa-chevron-down"></i>
                         </div>
@@ -203,52 +209,7 @@
                </div>
             </section>
             <!--------------------[END] Projects---------------------------->
-            <!--------------------[START] Blogs----------------------------->
-            <section class="colorlib-blogs no-print"
-                     data-section="blogs">
-               <div class="colorlib-narrow-content">
-                  <div class="row row-bottom-padded-sm animate-box"
-                       data-animate-effect="fadeInLeft">
-                     <div class="about-desc">
-                        <h1>Latest <span style="color: #f9bf3f">Blogs</span>
-                        </h1>
-                     </div>
-                  </div>
-                  <ul id="accordion"
-                      class="accordion animate-box"
-                      data-animate-effect="fadeInLeft">
-                     <li class="open">
-                        <ul id="blogs"
-                            class="submenu"
-                            style="display: block;">
-                        </ul>
-                     </li>
-                     <a class="readmore"
-                        href="https://vinaysomawat.medium.com/"
-                        target="_blank">
-                        <p>Read more &RightArrow;</p>
-                     </a>
-                  </ul>
-               </div>
-            </section>
-            <!--------------------[END] Blogs------------------------------->
-            <!--------------------[START] Work Experience------------------->
-            <section class="colorlib-experience"
-                     data-section="experience">
-               <div class="colorlib-narrow-content">
-                  <div class="row row-bottom-padded-sm animate-box fadeInLeft animated"
-                       data-animate-effect="fadeInLeft">
-                     <div class="about-desc">
-                        <h1>Work <span style="color: #f9bf3f">Experience</span>
-                        </h1>
-                     </div>
-                  </div>
-                  <div class="timeline-centered"
-                       id="experience">
-                  </div>
-               </div>
-            </section>
-            <!--------------------[END] Work Experience--------------------->
+
             <!--------------------[START] Education------------------------->
             <section class="colorlib-education"
                      data-section="education">
@@ -274,9 +235,7 @@
                      <div class="about-desc">
                         <h1>Contact</h1>
                      </div>
-                     <p>Please feel welcome to contact me via email at vinaysomawat40@gmail.com. Whether you would like
-                        to discuss a technology, a business opportunity, or simply say hello, I would be delighted to
-                        hear from you.
+                     <p>Please feel welcome to contact me via email at chibundu.onwuegbule@gmail.com!
                      </p>
                   </div>
                </div>

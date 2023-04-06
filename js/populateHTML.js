@@ -412,6 +412,7 @@ fetchBlogsFromMedium(mediumURL);
 populateProjects(webProjects, "web-projects");
 populateProjects(softwareProjects, "software-projects");
 populateProjects(androidProjects, "android-projects");
+//populateProjects(artProjects, "art-projects");
 populateProjects(freelanceProjects, "freelance-projects");
 populateDisclaimer(disclaimer, "project-disclaimer");
 
