@@ -147,7 +147,15 @@ export const projects = {
       //techStack: ["---", "Bootstrap", "JavaScript"],
     //},
     {
-      projectName: "Snap Lense: SouthPark ",
+      projectName: "Snap Lens: Californian Summer ",
+      image: "images/Snapchat-logo.png",
+      summary:
+        "Developed a SnapChat Lens using Lens Studio to ring in the Summer season",
+      preview: "https://lens.snapchat.com/5ec81e87a9264be8adbd6778bc39b4c3",
+      techStack: ["Lens Studio", "UX Design"],
+    },
+    {
+      projectName: "Snap Lens: SouthPark ",
       image: "images/Snapchat-logo.png",
       summary:
         "Developed a SouthPark themed SnapChat Lens using Lens Studio",
@@ -159,13 +167,25 @@ export const projects = {
       image: "images/resumepic.png",
       summary: "My Resume :)",
       preview:
-        "https://drive.google.com/file/d/14FPYrRhhaOc2KjWw_axkldatbHloW_zk/view?usp=sharing",
+        "https://drive.google.com/file/d/15wPLof1PRP8wjaakG7lmICGksZRMiD-6/view?usp=sharing",
       techStack: ["Markdown", "CSS"],
     },
   ],
 };
 
 export const experience = [
+  {
+    title: "Snap Lens Academy, Snap inc.",
+    duration: "June 2023 — Present",
+    subtitle: "Intern",
+    details: [
+      "Prepares assets (2D, 3D, audio, multimedia) for seamless integration into Lens Studio. Utilizes software such as Adobe Illustrator and Blender to ensure optimal compatibility and quality.",
+      "Uses core Lens Studio features to bring innovative Lens concepts to life, resulting in engaging AR (augmented reality) experiences. ",
+      "Applies the design thinking process to plan and iterate the Lens experience from the user's perspective",
+    ],
+    tags: ["Augmented Reality (AR)", "Blender (3D Modeling)", "Adobe Illustrator", "UX Design"],
+    icon: "group",
+  },
   {
     title: "C.D.O. ENTERPRISES, LLC",
     duration: "April 2022 — Present",
