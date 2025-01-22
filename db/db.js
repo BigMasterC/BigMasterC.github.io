@@ -1,10 +1,11 @@
 export const bio = [
   "Hi! &#128075; &#128516",
-  "My name is Chibundu Onwuegbule, and I am currently pursuing dual degrees in Computer Science at the University of Maryland, College Park, and Cybersecurity at Prince George's Community College. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
+  "My name is Chibundu Onwuegbule, and I am currently pursuing a degree in Computer Science at the University of Maryland, College Park. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
   "Apart from coding, I love playing lacrosse &#x1F94D, listening to music (I'm always open to new song recommendations), and traveling.",
   "As a lifelong learner, I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.",
   "Thank you for taking the time to learn more about me, and I look forward to connecting with you soon!",
 ];
+
 
 export const skills = [
   {
@@ -174,35 +175,49 @@ export const projects = {
 };
 
 export const experience = [
-  {
-    title: "Snap Lens Academy, Snap inc.",
-    duration: "June 2023 — Present",
+
+   {
+    title: "kAR Graphics",
+    duration: "September 2023 — January 2024",
     subtitle: "Intern",
     details: [
-      "Prepares assets (2D, 3D, audio, multimedia) for seamless integration into Lens Studio. Utilizes software such as Adobe Illustrator and Blender to ensure optimal compatibility and quality.",
-      "Uses core Lens Studio features to bring innovative Lens concepts to life, resulting in engaging AR (augmented reality) experiences. ",
-      "Applies the design thinking process to plan and iterate the Lens experience from the user's perspective",
+      "Engineered an AR (Augmented Reality) experience for MEL Science, a client with 3 million+ subscribers.",
+      "Collaborated closely with a client representative to ensure the experience met their criteria.",
+      "Implemented interactive elements of the AR experience based on client specifications.",
     ],
-    tags: ["Augmented Reality (AR)", "Blender (3D Modeling)", "Adobe Illustrator", "UX Design"],
+    tags: ["Augmented Reality (AR)", "Python", "Javascript"],
     icon: "group",
   },
   {
-    title: "C.D.O. ENTERPRISES, LLC",
-    duration: "April 2022 — Present",
-    subtitle: "Registered Agent ",
+    title: "Snap Lens Academy, Snap inc.",
+    duration: "June 2023 — August 2023",
+    subtitle: "Intern",
     details: [
-      "Delegates all legal documents on behalf of CDO ENTERPRISES’ e-commerce LLC ",
-      "Relays essential information to LLC owner",
+      "Prepared assets (2D, 3D, audio, multimedia) for seamless integration into Lens Studio. Utilized software such as Illustrator and Blender to ensure optimal compatibility and quality.",
+      "Used core Lens Studio features to bring innovative Lens concepts to life, resulting in engaging AR experiences for 363 million+ Snapchat users.",
+      "Managed team projects in 3 Lens Hackathons, collaborating with cross-functional teams to develop AR lenses within strict timeframes, utilizing Javascript based Object-Oriented design techniques.",
     ],
-    tags: ["Leadership", "Communication"],
+    tags: ["Augmented Reality (AR)", "Blender (3D Modeling)", "JavaScript", "UX Design"],
     icon: "group",
   },
+  // {
+  //   title: "C.D.O. ENTERPRISES, LLC",
+  //   duration: "April 2022 — Present",
+  //   subtitle: "Registered Agent ",
+  //   details: [
+  //     "Delegates all legal documents on behalf of CDO ENTERPRISES’ e-commerce LLC ",
+  //     "Relays essential information to LLC owner",
+  //   ],
+  //   tags: ["Leadership", "Communication"],
+  //   icon: "group",
+  // },
   {
     title: "Johns Hopkins Applied Physics Laboratory",
     duration: "November 2021 — May 2022 ",
     subtitle: "Intern",
     details: [
-      "Completed 3 STEM related projects using Blender's (3D modeling software) Python API; Developed a Python program intended to interpret and visualize data. "
+      "Executed 3 data visualization projects aiming to enhance comprehension of complex datasets.",
+      "Utilized Blender's Python API to develop scripts that interpret and visualize data within Blender.",
     ],
     tags: ["Blender", "Python"],
     icon: "heartbeat",
@@ -216,7 +231,7 @@ export const experience = [
       "Oversaw progress made by team members.",
       "Designed and built a wearable device meant to monitor a baby's vital signs.",
     ],
-    tags: ["Python", "Leadership"],
+    tags: ["Python", "Leadership", "Project Management"],
     icon: "qrcode",
   },
 ];
